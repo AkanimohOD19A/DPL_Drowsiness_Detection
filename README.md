@@ -7,5 +7,5 @@ A computer aided application that monitors for fatigue and can detect drowsiness
 
 Simply take a selfie or drop your image by following the prompts on the application.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://akanimohod19a-dpl-drowsiness-detection-app-1txmi4.streamlitapp.com/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://drowsiness-detection.streamlit.app/)
 [![Kaggle Data](https://anaconda.org/delichon/kaggle/badges/downloads.svg)](https://www.kaggle.com/datasets/afrologicinsect/drowsinessdta)
