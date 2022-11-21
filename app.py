@@ -111,11 +111,9 @@ if APPLICATION_MODE == "Take a Selfie":
 elif APPLICATION_MODE == "Predict":
     st.sidebar.write(
         """
-            Driver fatigue, or drowsy driving, is the feeling of being tired, sleepy, or exhausted when driving and is a
-             major cause of crashes. It affects everyone regardless of driving experience, but experienced drivers are 
-             often better able to avoid fatigue by knowing when to take a break.
-            A computer aided application that monitors for fatigue and can detect drowsiness using facial cues,built on 
+            A computer aided application that monitors for fatigue and drowsiness using facial cues,built on 
             the powerful YOLOv5 object detection algorithm developed by *ultralytics*.
+            
             Simply take a selfie or drop your image by following the prompts on the application.
         """
     )
