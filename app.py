@@ -15,6 +15,9 @@ st.subheader("Powered by YOLOv5 and PyTorch! \n"
              "\n"
              "Author: **AfroLogicInsect**")
 
+## Page Config & SEO Indexing
+st.set_page_config(page_title="drowsiness-detection", layout="wide")
+
 ## Application States
 APPLICATION_MODE = st.sidebar.selectbox("Our Options",
                                         ["About the App", "Take a Selfie", "Predict", "Play Around"]
