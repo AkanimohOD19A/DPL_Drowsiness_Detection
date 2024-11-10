@@ -1,6 +1,6 @@
 pillow<=9.2.0
 numpy<=1.21.0
-streamlit==1.11.0
+#streamlit==1.11.0
 torch<=1.8.2+cu111
 opencv-python-headless<=4.6.0.66
 PyYAML<=6.0
@@ -23,3 +23,6 @@ seaborn>=0.11.0
 ipython  # interactive notebook
 psutil  # system utilization
 thop>=0.1.1  # FLOPs computation
+# Problematic dependencies --------------------
+altair<5  # version of Altair below v5
+streamlit>=1.23.0  # latest stable version
